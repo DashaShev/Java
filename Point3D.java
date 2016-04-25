@@ -22,6 +22,11 @@ public class Point3D {
         return String.format("Point3D(%d, %d, %d): d=%d", x, y, z, dist);
     }
 
+    public String as_point(String pfx)
+    {
+        return String.format("%s(%d, %d, %d)", pfx, x, y, z);
+    }
+
     public int distance() {
         return this.dist;
     }
