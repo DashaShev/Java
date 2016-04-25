@@ -14,7 +14,7 @@ public class Point3D {
         this.y = y;
         this.z = z;
         double sq = x*x + y*y + z*z;
-        this.dist = (int)Math.round(Math.sqrt(sq));
+        this.dist = (int)Math.round(1000f*Math.sqrt(sq));
     }
 
     public String toString()
