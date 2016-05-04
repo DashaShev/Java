@@ -1,3 +1,6 @@
-I. [1 pkt.] Przygotuj dwuwymiarową tablicę zmiennych typu char zawierającą wylosowane
-znaki z przedziału ’a’ do ’z’. Następnie napisz program liczący ile wyrazów
-“ala” wystąpiło w tej tablicy.
+II. [1 pkt.] Przygtuj bezrezultatową metodę myMethod z argumentem typu int, której
+zadaniem będzie zwiększenie argumentu i wypisanie rezultatu. Następnie przygtuj
+bezrezultatową metodę myMethod z argumentem typu double, której zadaniem będzie
+zmniejszenie argumentu i wypisanie rezultatu.
+Przedstaw przykład programu wywołującego obie metody, gdy do dyspozycji mamy
+tylko jedną zainicjowaną zmienną typu char.
