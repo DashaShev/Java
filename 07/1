@@ -1,0 +1,3 @@
+I. [1 pkt.] Przygotuj dwuwymiarową tablicę zmiennych typu char zawierającą wylosowane
+znaki z przedziału ’a’ do ’z’. Następnie napisz program liczący ile wyrazów
+“ala” wystąpiło w tej tablicy.
