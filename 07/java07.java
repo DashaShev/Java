@@ -5,7 +5,7 @@ public class java07 {
 		
 		 int a1 = 10;
 		 double a2 = 17.14; 
-		 char a = (char)a2; 
+		 char a = 'A'; //0x000a;
 		 MyMethod(Character.getNumericValue(a)); 
 		 
 	 }
@@ -13,12 +13,12 @@ public class java07 {
 	 
 	 public static void MyMethod(int x){
 		 x += 5;
-		 System.out.println(x);
+		 System.out.format("int: %d\n", x);
 	 }
 	 
 	 public static void MyMethod(double x){
 		 x -= 5;
-		 System.out.println(x);
+		 System.out.format("double: %.2g\n", x);
 	 }
 
 
