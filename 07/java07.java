@@ -7,6 +7,7 @@ public class java07 {
 		 double a2 = 17.14; 
 		 char a = 'A'; //0x000a;
 		 MyMethod(Character.getNumericValue(a)); 
+		 MyMethod((double)Character.getNumericValue(a)); 
 		 
 	 }
 	 
@@ -20,9 +21,5 @@ public class java07 {
 		 x -= 5;
 		 System.out.format("double: %.2g\n", x);
 	 }
-
-
-	 
-	 
-	}
+}
 	
