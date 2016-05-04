@@ -3,12 +3,13 @@ public class java07 {
 
 	 public static void main(String[] args) {
 		
-		 int a1 = 10;
-		 double a2 = 17.14; 
-		 char a = 'A'; //0x000a;
+		 char a = 'a'; //0x000a;
 		 MyMethod(Character.getNumericValue(a)); 
 		 MyMethod((double)Character.getNumericValue(a)); 
 		 
+		 char b = 'b';
+		 MyMethod((int)b); 
+		 MyMethod((double)b); 
 	 }
 	 
 	 
