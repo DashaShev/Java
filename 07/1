@@ -1,6 +1,5 @@
-II. [1 pkt.] Przygtuj bezrezultatową metodę myMethod z argumentem typu int, której
-zadaniem będzie zwiększenie argumentu i wypisanie rezultatu. Następnie przygtuj
-bezrezultatową metodę myMethod z argumentem typu double, której zadaniem będzie
-zmniejszenie argumentu i wypisanie rezultatu.
-Przedstaw przykład programu wywołującego obie metody, gdy do dyspozycji mamy
-tylko jedną zainicjowaną zmienną typu char.
+I. Utwórz klasę Kwadrat z polem bok. Zainicjuj pole w konstruktorze. Dodaj metodę
+show wyświetlającą:
+• pole powierzchni tego kwadratu,
+• objętość sześcianu zbudowanego na podstawie tego kwadratu
+Przedstaw wykorzystanie tej klasy na przykładzie
