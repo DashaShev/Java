@@ -7,6 +7,10 @@ public class Dzem {
 		this.smak = smak;
 		waga = 100.0;
 	}
+
+    public String toString() {
+        return String.format("%g g of %s dzem", waga, smak);
+    }
 	
 	public Dzem(String smak, double waga){
 		this.smak = smak;

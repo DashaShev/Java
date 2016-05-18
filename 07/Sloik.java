@@ -11,10 +11,16 @@ public class Sloik {
 	}
 
 	public void otworz(){
+        if (czyOtwarty == true) {
+            System.err.println("Sloik with dzem " + dzem + " is already opened");
+        }
 		czyOtwarty = true;
 	}
 	
 	public void zamknij(){
+        if (czyOtwarty == false) {
+            System.err.println("Sloik with dzem " + dzem + " is already closed");
+        }
 		czyOtwarty = false;
 	}
 	
@@ -29,11 +35,13 @@ public class Sloik {
 	public static void main(String[] args) {
 		Sloik sloik1 = new Sloik();
 		if(sloik1.czyOtwarty() == false){
+            System.out.println("czyOtwarty is false");
 			sloik1.otworz();
 			sloik1 = new Sloik(new Dzem("truskawkowy"));
 			sloik1.zamknij();
 			
 		} else {
+            System.out.println("czyOtwarty is true");
 			sloik1.zamknij();
 		}
 		

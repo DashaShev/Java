@@ -3,7 +3,21 @@ inicjujący wszystkie zadeklarowane pola i metody:
 • otworz
 • zamknij
 • czyOtwarty
+
+II. [1 point.] Declare class Jar containing box Jam jam, dedicated constructor
+initiating all the declared fields and methods:
+• open 
+• close
+• czyOtwarty
+
 Następnie utwórz obiekt klasy Sloik i napełnij go wybranym rodzajem dżemu, operacje
 powtórz dla wszystkich rodzajów dżemów.
+
+Then create an object of class jar and fill it with the selected type of jam, 
+Repeat the operation for all kinds of jams.
+
 Uwaga: nakladanie dzemu do zamkniętego słoika lub pozostawienie słoika nie zamkniętego
 może prowadzić do zepsucia się produktu!
+
+Note: Application in a closed jar of jam or 
+leave the jar opened, which can lead to spoilage of the product!

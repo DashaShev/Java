@@ -1,14 +1,37 @@
 I. [1 pkt.] Zadeklaruj klasę Dzem zawierającą prywatne pola:
 • String smak,
 • double waga
+
+I. [1 point.] Declare Jam class contains private fields:
+• String flavor,
+• double weight
+
 Utwórz konstruktory przyjmujące jako parametry zmienne:
 • (String smak, double waga),
 • (double waga),
 • (String smak).
+
+Create constructors host variables as parameters:
+• (String flavor, double weight)
+• (double weight)
+• (String taste).
+
+
 Dostarczone parametry konstruktorów powinny zainicjalizować pola klasy. W przypadku
 gdy konstruktor nie dostarcza niezbędnego parametru należy przyjąć, że pole
 smak musi przyjąć wartość “No name”, natomiast waga – 100.0.
 Przedstaw wykorzystanie wszystkich konstruktorów tworząc obiekty reprezentujące
 trzy rodzaje dżemów.
+
+The supplied parameters constructors should initialize class fields. In case of
+the constructor does not provide the necessary parameter should be assumed that the field
+taste must be set to "No Name" and weight - 100.0.
+Introduce the use of all constructors to create objects representing
+Three types of jams.
+
+
 Uwaga: należy założyć, że tylko konstruktor z dwoma parametrami może przypisać
 wartości polom klasy.
+
+Note: you should assume that the only constructor with two parameters can assign
+the class fields.
