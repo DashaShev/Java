@@ -1,4 +1,32 @@
-public static void main(String[] args) {
+public class Sloik {
+	Dzem dzem;
+	boolean czyOtwarty;
+	
+	public Sloik(Dzem dzem){
+		this.dzem = dzem;
+	}
+	
+	public Sloik() {
+		
+	}
+
+	public void otworz(){
+		czyOtwarty = true;
+	}
+	
+	public void zamknij(){
+		czyOtwarty = false;
+	}
+	
+	public boolean czyOtwarty(){
+		return czyOtwarty;
+		
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
 		Sloik sloik1 = new Sloik();
 		if(sloik1.czyOtwarty() == false){
 			sloik1.otworz();
