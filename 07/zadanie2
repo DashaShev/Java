@@ -1,0 +1,9 @@
+II. [1 pkt.] Zadeklaruj klasę Sloik zawierającą pole Dzem dzem, dedykowany konstruktor
+inicjujący wszystkie zadeklarowane pola i metody:
+• otworz
+• zamknij
+• czyOtwarty
+Następnie utwórz obiekt klasy Sloik i napełnij go wybranym rodzajem dżemu, operacje
+powtórz dla wszystkich rodzajów dżemów.
+Uwaga: nakladanie dzemu do zamkniętego słoika lub pozostawienie słoika nie zamkniętego
+może prowadzić do zepsucia się produktu!
